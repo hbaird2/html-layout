@@ -1,0 +1,44 @@
+html, body {
+  height:100%;
+  margin:0px;
+}
+
+
+.left {
+  width: 33.333%;
+  height:100%;
+  background-color: blue;
+  float:left;
+
+}
+
+.middle {
+  width: 33.333%;
+  height:100%;
+  background-color: green;
+  float:left;
+}
+
+.right {
+  width: 33.333%;
+  height:100%;
+  background-color: lightgreen;
+  float:right;
+  position:relative;
+}
+
+.pic {
+  height:25%;
+  width:100%;
+  background-color: red;
+  position:absolute;
+  bottom:0;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  padding-top: 50px;
+  font-family: serif;
+}
